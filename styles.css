@@ -37,6 +37,25 @@ body {
   background-color: var(--cyan);
 }
 
+button {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: .9rem 0;
+  border-radius: .3rem;
+  background-color: var(--brightyellow);
+  font-family: 'Karla', sans-serif;
+  color: var(--lightgray);
+  font-weight: 700;
+  box-shadow: 0 3px 15px rgb(0, 0, 0, .2);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--brightyellow);
+}
+
 #why-us {
   background-color: rgb(42, 178, 175, 0.8);
 }
