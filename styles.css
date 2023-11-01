@@ -1,0 +1,50 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --brightyellow: hsl(71, 73%, 54%);
+  --lightgray: hsl(204, 43%, 93%);
+  --grayishblue: hsl(218, 22%, 67%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--lightgray);
+}
+
+#wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  margin-top: 2rem; /* adjust later */
+  display: grid;
+  border-radius: .5rem;
+  overflow: hidden;
+  /*grid-template-columns: 1fr 1fr;*/
+}
+
+#join {
+  background-color: white;
+}
+
+#subscription {
+  background-color: var(--cyan);
+}
+
+#why-us {
+  background-color: rgb(42, 178, 175, 0.8);
+}
+
+#join, #subscription, #why-us {
+  padding: 1.3rem;
+}
+
+#why-us ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
