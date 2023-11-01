@@ -10,6 +10,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: var(--lightgray);
+  font-family: 'Karla', sans-serif;
 }
 
 #wrapper {
@@ -23,6 +24,8 @@ body {
   display: grid;
   border-radius: .5rem;
   overflow: hidden;
+  width: 330px;
+  box-shadow: 0 3px 5px rgb(152, 166, 189, 0.4);
   /*grid-template-columns: 1fr 1fr;*/
 }
 
@@ -39,7 +42,7 @@ body {
 }
 
 #join, #subscription, #why-us {
-  padding: 1.3rem;
+  padding: 1.6rem 1.5rem;
 }
 
 #why-us ul {

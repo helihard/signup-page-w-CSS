@@ -1,0 +1,71 @@
+h1 {
+  margin: 0 0 1.5rem 0;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+p {
+  margin: 0;
+}
+
+#join hgroup h1 {
+  color: var(--cyan);
+}
+
+#join hgroup p {
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 700;
+  color: var(--brightyellow);
+  margin-bottom: 1.2rem;
+}
+
+#join p {
+  font-size: 14.8px;
+  line-height: 1.9;
+  color: var(--grayishblue);
+  margin-bottom: .6rem;
+}
+
+#subscription h1, span, p {
+  color: var(--lightgray);
+}
+
+#subscription h1 {
+  margin-bottom: 1rem;
+}
+
+#price {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+#per-month {
+  position: relative;
+  font-size: 16px;
+  left: 9px;
+  bottom: 5px;
+}
+
+#subscription p {
+  font-size: 16px;
+  margin: .5rem 0 1.7rem;
+}
+
+#why-us h1, ul, li {
+  color: var(--lightgray);
+}
+
+#why-us ul li {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
