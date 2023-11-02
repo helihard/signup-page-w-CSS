@@ -47,13 +47,16 @@ button {
   font-family: 'Karla', sans-serif;
   color: var(--lightgray);
   font-weight: 700;
+  font-size: 16px;
   box-shadow: 0 3px 15px rgb(0, 0, 0, .2);
   cursor: pointer;
+  transition: .1s ease-in-out;
 }
 
 button:hover {
-  background-color: white;
+  background-color: var(--lightgray);
   color: var(--brightyellow);
+  box-shadow: none;
 }
 
 #why-us {
@@ -68,5 +71,4 @@ button:hover {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
 }

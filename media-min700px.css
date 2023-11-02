@@ -1,0 +1,35 @@
+@media (min-width: 700px) {
+  #container {
+  width: auto;
+  max-width: 635px;
+  grid-template-columns: 1fr 1fr;
+  }
+
+  #join {
+    grid-column-end: span 2;
+  }
+
+  #join {
+    padding: 2.5rem 4rem 2rem 2.5rem ;
+  }
+
+  #subscription, #why-us {
+    padding: 2.5rem;
+  }
+
+  #subscription h1, #why-us h1 {
+    font-size: 18.5px;
+  }
+
+  #subscription p {
+    margin-bottom: 2.2rem;
+  }
+
+  button { 
+    padding: 1rem 0;
+  }
+
+  #why-us h1 {
+    margin-bottom: 1.2rem;
+  }
+}
