@@ -10,7 +10,15 @@
   }
 
   #join {
-    padding: 2.5rem 4rem 2rem 2.5rem ;
+    padding: 2.5rem 3.5rem 2rem 2.5rem ;
+  }
+
+  #join hgroup p {
+    font-size: 16.5px;
+  }
+
+  #join p {
+    font-size: 15.5px;
   }
 
   #subscription, #why-us {

@@ -62,6 +62,8 @@ p {
 }
 
 .attribution { 
+  font-family: 'Karla', sans-serif;
+  color: var(--grayishblue);
   font-size: 11px; 
   text-align: center; 
 }
